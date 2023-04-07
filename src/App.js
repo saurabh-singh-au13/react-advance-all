@@ -3,6 +3,7 @@ import './App.css';
 import Child from './components/Child';
 import Mapping from './components/Mapping';
 import { useState } from 'react';
+import Form from './components/Form';
 
 function App() {
 
@@ -13,7 +14,8 @@ function App() {
   return (
    
    <>
-   <Mapping />
+   {/* <Mapping /> */}
+   <Form />
 
 
    </>
